@@ -28,7 +28,6 @@ const ViewBooking = () => {
       swal("No Ticket Booked", `Please specify ticket Qty & Theatre`, "error");
     } else {
       swal(
-        "Payment Successfull",
         "Ticket Booked Successfully",
         `Booked Seats : ${seatCount} 
       Theatre : ${theatre}
